@@ -1,0 +1,33 @@
+{
+    "name": "snowball-fight-server",
+    "description": "SnowballFightServer",
+    "version": "0.0.1",
+    "author": "apostx",
+    "license": "MIT",
+    "repository": "github:One-More-Team/snowball-fight-server",
+    "scripts": {
+        "start": "node ./index.js",
+        "lint": "eslint ./index.js \"./lib/**/*.js\""
+    },
+    "dependencies": {
+        "uuid": "^8.3.0",
+        "ws": "^7.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.11.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "files": [
+        "LICENSE",
+        "Readme.md",
+        "index.js",
+        "lib/"
+    ]
+}
